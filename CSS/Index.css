@@ -1,3 +1,5 @@
+/*font-family: 'Dancing Script', cursive;*/
+
 body {
     background-image: url(../Images/Fondo.jpg);   
     background-size: cover;
@@ -8,7 +10,7 @@ body {
 
 .logo {
     text-align: center;
-    padding: 200px;
+    padding: 130px;
 }
 
 .contenedor {
@@ -21,20 +23,24 @@ body {
 a {
     text-align: center;
     width: 100px;
-    font: 30px Courier New;
-    font-weight: 450;
-    background-color: white;  
+    font-size: 30px;
+    background-color: #082903;
     padding: 15px;
     margin: 0px 100px;
-    color: black;
+    color: white;
     text-decoration: none;
-    border: 0px solid; 
+    border: 0px solid;
+    font-family: 'Dancing Script', cursive;
+    font-style: normal;
+    font-weight: 400;
 
 
 }
 
 a:hover {
-    background-color: #082903;
-    color: white;
+    background-color: white;
+    color: black;
     border: none;
+}
+@media screen{
 }
